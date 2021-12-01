@@ -1,6 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 /* Header */
+
 header{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+}
+nav.menyutvid{
+    display: none;
+}
+input#bars:checked ~ nav.menyutvid{
+    display: block;
+}
+.meny{
+    display: block;
+    position: relative;
+    top: 50px;
+    right: 50px;
+    z-index: 1;
+}
+nav.menyutvid a{
+    text-decoration: none;
+    color: black;
+    font-size: 2em;
+}
+nav.menyutvid li a:hover{
+    color: crimson;
+}
+.menyutvid li{
+    padding: 10px 0;
+}
+input#bars{
+    cursor: pointer;
+    opacity: 0;
+    z-index: 2;
+}
+nav.menyutvid ul{
+    list-style-type: none;
+    width: 300px;
+    background: turquoise;
+    position: relative;
+    top: 100px;
+}
+label[for=bars]{
+    font-size: 2em;
+    z-index: 1;
+    position: absolute;
+    top: 50px;
+    right: 50px;
+}
+
+/* Footer */
+
+footer{
+    background-color: lightgray;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* main forside */
+
+#forsidebilde{
+    object-fit: cover;
+    width: 100%;
+}
+
+/* bilder foreløpig */
+img{
+    width: 100%;
 }
