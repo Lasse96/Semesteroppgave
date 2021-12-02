@@ -2,6 +2,9 @@
     margin: 0;
     padding: 0;
 }
+h1{
+    font-family: 'Fira Sans', sans-serif;
+}
 /* Header */
 
 header{
@@ -64,7 +67,7 @@ h2{
     font-family: 'Fira Sans', sans-serif;
     font-size: 2rem;
 }
-p, #newsbox, #signup, .linktext{
+p, #newsbox, #signup, .linktext, #pforside{
     font-family: 'PT Serif', serif;
     font-size: 20px;
 }
@@ -112,24 +115,38 @@ p, #newsbox, #signup, .linktext{
     text-align: right;
 }
 
-
-
-
-
-
-
-
-
-
-
 /* main forside */
 
 #forsidebilde{
     object-fit: cover;
     width: 100%;
 }
-
-/* bilder foreløpig */
-img{
-    width: 100%;
+#exploretogether{
+    text-align: center;
+    padding: 10px 0 10px 0;
 }
+#pforside{
+    padding-bottom: 30px;
+    line-height: 1.5;
+    word-spacing: normal;
+}
+#bildeforside{
+    width: 100%;
+    max-width: 400px;
+}
+.flex{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+
+
+
+
+
+
+
+
+
