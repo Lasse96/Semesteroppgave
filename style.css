@@ -9,6 +9,9 @@ header{
     flex-direction: row;
     justify-content: space-between;
 }
+#logo{
+    width: 200px;
+}
 nav.menyutvid{
     display: none;
     height: 0;
@@ -41,7 +44,7 @@ input#bars{
 }
 nav.menyutvid ul{
     list-style-type: none;
-    width: 300px;  /*max-content   */
+    /* width: 300px;  max-content   */
     background: #EDE3DD;
 }
 label[for=bars]{
@@ -109,14 +112,6 @@ p, #newsbox, #signup, .linktext{
     text-align: right;
 }
 
-.foo {
-    top: 0;
-    transition: top ease 0.5s;
-}
-
-.foo:hover{
-    top: -10px;
-}
 
 
 
