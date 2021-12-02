@@ -11,6 +11,7 @@ header{
 }
 nav.menyutvid{
     display: none;
+    height: 0;
 }
 input#bars:checked ~ nav.menyutvid{
     display: block;
@@ -40,10 +41,8 @@ input#bars{
 }
 nav.menyutvid ul{
     list-style-type: none;
-    width: 300px;
-    background: turquoise;
-    position: relative;
-    top: 100px;
+    width: 300px;  /*max-content   */
+    background: #EDE3DD;
 }
 label[for=bars]{
     font-size: 2em;
@@ -56,12 +55,68 @@ label[for=bars]{
 /* Footer */
 
 footer{
-    background-color: lightgray;
+    background-color: #959A9C;
+}
+h2{
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 2rem;
+}
+p, #newsbox, #signup, .linktext{
+    font-family: 'PT Serif', serif;
+    font-size: 20px;
+}
+.location, .hours, .newsletter, .links{
+    padding: 35px 0 0 35px;
+}
+#newsbox{
+    height: 25px;
+    outline: none;
+    background: #EDE3DD;
+}
+#newspad{
+    padding-bottom: 10px;
+}
+#signup{
+    text-decoration: none !important;
+    border: 4px solid #d7c49e;
+    background: #d7c49e;
+    border-radius: 6px;
+    font-family: 'PT Serif', serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    margin-left: 20px;
+}
+#signup:hover{
+    color: #d7c49e;
+    background: #736F4C;
+    border: 4px solid #736F4C;
+}
+.linktext a{
+    font-weight: bold;
+    text-decoration-color: #EDE3DD;
+    color: black;
+    display: flex;
+    flex-direction: row;
+    padding-top: 5px;
+}
+.linktext a:hover{
+    color: #EDE3DD;
+    text-decoration: none;
+}
+.footicon{
+    font-size: 2rem;
+    text-align: right;
 }
 
+.foo {
+    top: 0;
+    transition: top ease 0.5s;
+}
 
-
-
+.foo:hover{
+    top: -10px;
+}
 
 
 
