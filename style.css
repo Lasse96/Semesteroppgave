@@ -159,7 +159,7 @@ p, #newsbox, #signup, .linktext, #pforside, #message{
 
 #forkids, #forresearchers{
     width: 100%;
-    max-width: 200px;
+    max-width: 180px;
     max-height: 200px;
 }
 #exploreh2{
