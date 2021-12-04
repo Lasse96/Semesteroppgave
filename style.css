@@ -195,7 +195,7 @@ p, #newsbox, #signup, .linktext, #pforside, #message{
 }
 #mammoth{
     width: 100%;
-    max-width: 400px;
+    max-width: 300px;
     padding-left: 50px;
 }
 .messagearea{
@@ -226,3 +226,6 @@ p, #newsbox, #signup, .linktext, #pforside, #message{
 #reasearcherstxt2{
     padding-bottom: 30px;
 }
+
+/* Exhibition Spaces */
+
