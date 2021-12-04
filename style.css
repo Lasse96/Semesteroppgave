@@ -133,15 +133,41 @@ p, #newsbox, #signup, .linktext, #pforside{
 #bildeforside{
     width: 100%;
     max-width: 400px;
+    max-height: 265px;
+}
+.padimgexp{
+    padding-top: 40px;
 }
 .flex{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    text-align: center;
 }
-
-
-
+#imgtxtforside{
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    font-size: 1.5rem;
+}
+.padexp, .padexhi, .padevent, .padvisit, .padinvolved{
+    padding-bottom: 80px;
+}
+.padexp{
+    padding-right: 320px;
+}
+.padexhi{
+    padding-right: 209px;
+}
+.padevent{
+    padding-right: 68px;
+}
+.padvisit{
+    padding-right: 348px;
+}
+.padinvolved{
+    padding-right: 263px;
+}
 
 
 
