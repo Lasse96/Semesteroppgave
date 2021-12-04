@@ -161,7 +161,7 @@ p, #newsbox, #signup, .linktext, #pforside, #message{
     width: 100%;
     max-width: 200px;
     max-height: 200px;
-    padding-right: 20px;
+    padding-right: 5px;
 }
 #exploreh2{
     padding: 20px 0 0 50px;
