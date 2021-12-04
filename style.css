@@ -218,12 +218,12 @@ p, #newsbox, #signup, .linktext, #pforside, #message{
     width: 100%;
     max-height: 250px;
 }
-#exhibbilde{
+#exhibbilde, #eventbilde{
     width: 100%;
     max-width: 350px;
     padding-top: 20px;
 }
-.centerexhib{
+.centerexhib, .centerevent{
     text-align: center;
 }
 #exhibh2, #exhibp1, #exhibp2{
@@ -233,3 +233,6 @@ p, #newsbox, #signup, .linktext, #pforside, #message{
 #exhibp2{
     padding-top: 10px;
 }
+
+/* Special Events and Exhibition */
+
