@@ -212,7 +212,6 @@ p, #newsbox, #signup, .linktext, #pforside, #message{
     width: 100%;
     max-width: 200px;
     max-height: 250px;
-    margin-top: -30px;
 }
 #txtteachers, #txtreasearchers{
     padding-left: 50px;
