@@ -159,8 +159,9 @@ p, #newsbox, #signup, .linktext, #pforside, #message{
 
 #forkids, #forresearchers{
     width: 100%;
-    max-width: 150px;
+    max-width: 200px;
     max-height: 200px;
+    padding-right: 20px;
 }
 #exploreh2{
     padding: 20px 0 0 50px;
