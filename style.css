@@ -213,3 +213,23 @@ p, #newsbox, #signup, .linktext, #pforside, #message{
 
 /* Exhibition Spaces */
 
+#exhibtopbilde{
+    object-fit: cover;
+    width: 100%;
+    max-height: 250px;
+}
+#exhibbilde{
+    width: 100%;
+    max-width: 350px;
+    padding-top: 20px;
+}
+.centerexhib{
+    text-align: center;
+}
+#exhibh2, #exhibp1, #exhibp2{
+    padding-left: 5px;
+    padding-bottom: 10px;
+}
+#exhibp2{
+    padding-top: 10px;
+}
