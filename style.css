@@ -35,7 +35,7 @@ nav.menyutvid a{
     font-size: 2em;
 }
 nav.menyutvid li a:hover{
-    color: crimson;
+    color: #959A9C;
 }
 .menyutvid li{
     padding: 10px 0;
@@ -67,7 +67,7 @@ h2{
     font-family: 'Fira Sans', sans-serif;
     font-size: 2rem;
 }
-p, #newsbox, #signup, .linktext, #pforside{
+p, #newsbox, #signup, .linktext, #pforside, #message{
     font-family: 'PT Serif', serif;
     font-size: 20px;
 }
@@ -82,7 +82,7 @@ p, #newsbox, #signup, .linktext, #pforside{
 #newspad{
     padding-bottom: 10px;
 }
-#signup{
+#signup, #messagebut{
     text-decoration: none !important;
     border: 4px solid #d7c49e;
     background: #d7c49e;
@@ -115,13 +115,14 @@ p, #newsbox, #signup, .linktext, #pforside{
     text-align: right;
 }
 
-/* main forside */
+/* Forside */
 
-#forsidebilde{
+#topbilde{
     object-fit: cover;
     width: 100%;
+    max-height: 700px;
 }
-#exploretogether{
+#toptxt{
     text-align: center;
     padding: 10px 0 10px 0;
 }
@@ -169,10 +170,59 @@ p, #newsbox, #signup, .linktext, #pforside{
     padding-right: 263px;
 }
 
+/* Explore */
 
-
-
-
-
-
-
+#forkids, #forresearchers{
+    width: 100%;
+    max-width: 200px;
+    max-height: 200px;
+    margin-top: -30px;
+}
+#exploreh2{
+    padding: 20px 0 0 50px;
+}
+.exploreflex{
+    display: flex;
+    flex-direction: row;
+}
+#forkidstxt{
+    max-width: 200px;
+    padding-left: 50px;
+}
+#forkidstxt2, #teacherstxt3, #reasearcherstxt2{
+    padding: 10px 0 0 50px;
+    max-width: 400px;
+}
+#mammoth{
+    width: 100%;
+    max-width: 400px;
+    padding-left: 50px;
+}
+.messagearea{
+    padding-left: 50px;
+}
+#message{
+    outline: none;
+    background: #EDE3DD;
+    max-width: 300px;
+}
+.padbut{
+    padding: 10px 0 0 30px;
+}
+#forteachers{
+    width: 100%;
+    max-width: 200px;
+    max-height: 250px;
+    margin-top: -30px;
+}
+#txtteachers, #txtreasearchers{
+    padding-left: 50px;
+    max-width: 200px;
+}
+#teacherstxt2{
+    padding-left: 50px;
+    max-width: 400px;
+}
+#reasearcherstxt2{
+    padding-bottom: 30px;
+}
