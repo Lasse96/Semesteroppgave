@@ -164,7 +164,7 @@ p, #newsbox, #signup, .linktext, #pforside, #message{
     padding-right: 5px;
 }
 #exploreh2{
-    padding: 5px 0 0 50px;
+    padding: 20px 0 0 5px;
 }
 .exploreflex{
     display: flex;
@@ -175,16 +175,16 @@ p, #newsbox, #signup, .linktext, #pforside, #message{
     padding-left: 5px;
 }
 #forkidstxt2, #teacherstxt3, #reasearcherstxt2{
-    padding: 10px 0 0 50px;
+    padding: 10px 0 0 5px;
     max-width: 400px;
 }
 #mammoth{
     width: 100%;
     max-width: 300px;
-    padding-left: 50px;
+    padding-left: 5px;
 }
 .messagearea{
-    padding-left: 50px;
+    padding-left: 5px;
 }
 #message{
     outline: none;
@@ -200,11 +200,11 @@ p, #newsbox, #signup, .linktext, #pforside, #message{
     max-height: 250px;
 }
 #txtteachers, #txtreasearchers{
-    padding-left: 50px;
+    padding-left: 5px;
     max-width: 200px;
 }
 #teacherstxt2{
-    padding-left: 50px;
+    padding-left: 5px;
     max-width: 400px;
 }
 #reasearcherstxt2{
