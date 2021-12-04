@@ -172,7 +172,7 @@ p, #newsbox, #signup, .linktext, #pforside, #message{
 }
 #forkidstxt{
     max-width: 200px;
-    padding-left: 50px;
+    padding-left: 5px;
 }
 #forkidstxt2, #teacherstxt3, #reasearcherstxt2{
     padding: 10px 0 0 50px;
