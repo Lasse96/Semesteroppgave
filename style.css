@@ -226,8 +226,8 @@ p, #newsbox, #signup, .linktext, #pforside, #message{
 .centerexhib, .centerevent{
     text-align: center;
 }
-#exhibh2, #exhibp1, #exhibp2{
-    padding-left: 5px;
+#exhibh2, #exhibp1, #exhibp2, #eventh2, #eventp{
+    padding-left: 13px;
     padding-bottom: 10px;
 }
 #exhibp2{
