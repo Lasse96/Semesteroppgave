@@ -13,7 +13,7 @@ header{
     justify-content: space-between;
 }
 #logo{
-    width: 200px;
+    width: 150px;
 }
 nav.menyutvid{
     display: none;
@@ -54,8 +54,8 @@ label[for=bars]{
     font-size: 2em;
     z-index: 1;
     position: absolute;
-    top: 50px;
-    right: 50px;
+    top: 20px;
+    right: 30px;
 }
 
 /* Footer */
@@ -82,7 +82,7 @@ p, #newsbox, #signup, .linktext, #pforside, #message{
 #newspad{
     padding-bottom: 10px;
 }
-#signup, #messagebut{
+#signup, #messagebut, #calbut{
     text-decoration: none !important;
     border: 4px solid #d7c49e;
     background: #d7c49e;
@@ -166,7 +166,7 @@ p, #newsbox, #signup, .linktext, #pforside, #message{
 #exploreh2{
     padding: 20px 0 0 5px;
 }
-.exploreflex{
+.exploreflex, .visitflex{
     display: flex;
     flex-direction: row;
 }
@@ -183,7 +183,7 @@ p, #newsbox, #signup, .linktext, #pforside, #message{
     max-width: 300px;
     padding-left: 5px;
 }
-.messagearea{
+.messagearea, .visitflex, #visith2{
     padding-left: 5px;
 }
 #message{
@@ -213,7 +213,7 @@ p, #newsbox, #signup, .linktext, #pforside, #message{
 
 /* Exhibition Spaces */
 
-#exhibtopbilde{
+#exhibtopbilde, #visittopbilde{
     object-fit: cover;
     width: 100%;
     max-height: 250px;
@@ -236,3 +236,35 @@ p, #newsbox, #signup, .linktext, #pforside, #message{
 
 /* Special Events and Exhibition */
 
+
+/* Visit */
+
+#calendarbilde{
+    width: 100%;
+    max-width: 150px;
+    max-height: 150px;
+    border-radius: 6px;
+}
+#calbut{
+    margin: 0px;
+}
+.cal{
+    text-align: center;
+    padding-right: 5px;
+}
+.calbutwidth{
+    width: 140px;
+    border: 4px solid #d7c49e;
+    background: #d7c49e;
+    border-radius: 6px;
+}
+#laguneveien{
+    width: 100%;
+    max-width: 350px;
+}
+.lagunecenter{
+    text-align: center;
+}
+#visitp2, #visitp1{
+    padding: 0 0 25px 5px;
+}
