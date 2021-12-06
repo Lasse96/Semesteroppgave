@@ -306,6 +306,9 @@ p, #newsbox, #signup, .linktext, #pforside, #message{
     text-align: center;
     text-align: -webkit-center;
 }
+#shop{
+    display: none;
+}
 
 /* Calendar */
 
@@ -386,4 +389,161 @@ p, #newsbox, #signup, .linktext, #pforside, #message{
 .energy{
     background: burlywood;
     padding: 6px 11px 6px 11px;
+}
+
+/* Tablet */
+
+    /* Header */
+
+@media screen and (min-width: 450px){
+    #logo{
+        width: 200px;
+    }
+}
+@media screen and (min-width: 450px){
+    label[for=bars]{
+        top: 50px;
+    }
+}
+
+    /* Forside */
+
+@media screen and (min-width: 450px){
+    #bildeforside{
+        max-width: 600px;
+        max-height: 400px;
+    }
+}
+@media screen and (min-width: 450px){
+    #imgtxtforside, #eventh2, #exhibh2, #exploreh2, .visithours, #visith2, #supporth2, #contacth1{
+        font-size: 2.5rem;
+    }
+}
+@media screen and (min-width: 450px){
+    #pforside, #eventp, #exhibp1, #exhibp2, .exploresize, #visitp1, #visitp2, #psize, #supportp1, #supportp2{
+        font-size: 25px;
+    }
+}
+@media screen and (min-width: 450px){
+    #toptxt{
+        font-size: 3rem;
+    }
+}
+    
+
+    /* Visit */
+
+@media screen and (min-width: 450px){
+    .grid{
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+}
+@media screen and (min-width: 450px){
+    .visitflex{
+        flex-direction: column;
+    }
+}
+@media screen and (min-width: 450px){
+    .cal{
+        text-align: left;
+    }
+}
+@media screen and (min-width: 450px){
+    #visith2, .visithours{
+        padding-top: 30px;
+    }
+}
+@media screen and (min-width: 450px){
+    #shop{
+        display: block;
+        width: 100%;
+        max-width: 350px;
+        padding: 0 5px 0 5px;
+    }
+}
+@media screen and (min-width: 450px){
+    .visitflex, #visith2, #visitp1, #laguneveien, #shop, #visitp2, #mammoth, #forkidstxt2, #teacherstxt2, #teacherstxt3, #reasearcherstxt2, #txtteachers, #txtreasearchers, #forkidstxt, #exploreh2, .messagearea, #supporth2, #supportp1, #supportp2, #contacth1{
+        padding-left: 35px;
+    }
+}
+
+    /* Explore */
+
+@media screen and (min-width: 450px){
+    #forkids{
+        max-width: 350px;
+        max-height: 250px;
+        padding-left: 100px;
+    }
+}
+@media screen and (min-width: 450px){
+    #forkidstxt2, #teacherstxt2, #teacherstxt3, #reasearcherstxt2{
+        max-width: 700px;
+    }
+}
+@media screen and (min-width: 450px){
+    #txtteachers, #txtreasearchers{
+        max-width: 290px;
+    }
+}
+@media screen and (min-width: 450px){
+    #mammoth{
+        max-width: 700px;
+    }
+}
+@media screen and (min-width: 450px){
+    #forteachers{
+        max-height: 280px;
+        max-width: 280px;
+    }
+}
+@media screen and (min-width: 450px){
+    #forresearchers{
+        max-width: 300px;
+    }
+}
+
+    /* Exhibiton Spaces */
+
+@media screen and (min-width: 450px){
+    #exhibbilde, #eventbilde{
+        max-width: 693px;
+        max-height: 650px;
+    }
+}
+@media screen and (min-width: 450px){
+    #exhibh2, #exhibp1, #exhibp2, #eventh2, #eventp{
+        padding-left: 35px;
+        max-width: 693px;
+    }
+}
+
+    /* Get Involved */
+
+@media screen and (min-width: 450px){
+    #supportbilde{
+        max-width: 230px;
+        padding-right: 80px
+    }
+}
+@media screen and (min-width: 450px){
+    #supportp2, #supportp1{
+        max-width: 650px;
+    }
+}
+
+    /* Contact us */
+
+@media screen and (min-width: 450px){
+    #name, #message{
+        max-width: 530px;
+        padding: 30px;
+        font-size: 1.5rem;
+    }
+}
+@media screen and (min-width: 450px){
+    #text{
+        font-size: 1.8rem;
+    }
 }
