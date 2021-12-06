@@ -166,7 +166,7 @@ p, #newsbox, #signup, .linktext, #pforside, #message{
 #exploreh2{
     padding: 20px 0 0 5px;
 }
-.exploreflex, .visitflex, .supportflex{
+.exploreflex, .visitflex, .supportflex, .flexcal{
     display: flex;
     flex-direction: row;
 }
@@ -305,4 +305,85 @@ p, #newsbox, #signup, .linktext, #pforside, #message{
 .contact{
     text-align: center;
     text-align: -webkit-center;
+}
+
+/* Calendar */
+
+#calul{
+    list-style-type: none;
+}
+.month{
+    padding: 60px 0 40px;
+    width: 100%;
+    background: #d7c49e;
+    text-align: center;
+}
+.month ul li{
+    color: white;
+    font-size: 22px;
+    text-transform: uppercase;
+}
+.month .prev{
+    float: left;
+    padding: 10px 0 0 5px;
+}
+.month .next{
+    float: right;
+    padding: 10px 5px 0 0;
+}
+.week{
+    padding: 13px 0;
+    background-color: #959A9C;
+}
+.week li{
+    display: inline-block;
+    width: 13%;
+    color: rgb(226, 225, 223);
+    text-align: center;
+}
+.days{
+    padding: 10px 0;
+    background: #EDE3DD;
+}
+.days li{
+    list-style-type: none;
+    display: inline-block;
+    width: 13%;
+    text-align: center;
+    margin-bottom: 5px;
+    font-size: 18px;
+    color: rgb(78, 105, 102);
+}
+.days li .active{
+    padding: 6px;
+    background: #959A9C;
+    color: white !important;
+}
+.prof, .nightmuseum, .energy{
+    padding: 6px;
+    color: white;
+}
+.prof{
+    background: rgb(53, 116, 155);
+}
+.profvisit, .night, .energeticaex{
+    height: 25px;
+    width: 25px;
+    margin-left: 5px;
+}
+.profvisit{
+    background-color: rgb(53, 116, 155);
+}
+.night{
+    background-color: #583a3a;
+}
+.nightmuseum{
+    background: #583a3a;
+}
+.energeticaex{
+    background-color: burlywood;
+}
+.energy{
+    background: burlywood;
+    padding: 6px 11px 6px 11px;
 }
