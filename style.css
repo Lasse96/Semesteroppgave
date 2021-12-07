@@ -867,6 +867,7 @@ p, #newsbox, #signup, .linktext, #pforside, #message{
 @media screen and (min-width: 1200px){
     .flexsup, #supporth2, #supportp2{
         text-align: -webkit-center;
+        padding: 0;
     }
 }
 
