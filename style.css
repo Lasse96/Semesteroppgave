@@ -65,10 +65,12 @@ footer{
 h2{
     font-family: 'Fira Sans', sans-serif;
     font-size: 2rem;
+    text-align: left;
 }
 p, #newsbox, #signup, .linktext, #pforside, #message{
     font-family: 'PT Serif', serif;
     font-size: 20px;
+    text-align: left;
 }
 .location, .hours, .newsletter, .links{
     padding: 35px 0 0 35px;
@@ -124,6 +126,7 @@ p, #newsbox, #signup, .linktext, #pforside, #message{
 #toptxt{
     text-align: center;
     padding: 10px 0 10px 0;
+    background: lightgray;
 }
 #pforside{
     padding: 0 0 30px 5px;
@@ -474,7 +477,7 @@ p, #newsbox, #signup, .linktext, #pforside, #message{
 }
 @media screen and (min-width: 1000px){
     #forkidstxt{
-        max-width: none;
+        max-width: 900px;
     }
 }
 @media screen and (min-width: 1000px){
@@ -598,7 +601,6 @@ p, #newsbox, #signup, .linktext, #pforside, #message{
 }
 @media screen and (min-width: 450px){
     #exhibh2, #exhibp1, #exhibp2, #eventh2, #eventp{
-        padding-left: 35px;
         max-width: 693px;
     }
 }
@@ -784,6 +786,11 @@ p, #newsbox, #signup, .linktext, #pforside, #message{
         display: block;
     }
 }
+@media screen and (min-width: 1200px){
+    #topbilde, #visittopbilde{
+        max-height: 600px;
+    }
+}
 
     /* Visit */
 
@@ -799,6 +806,74 @@ p, #newsbox, #signup, .linktext, #pforside, #message{
 }
 @media screen and (min-width: 1200px){
     #imgtxtforside, #eventh2, #exhibh2, #exploreh2, .visithours, #visith2, #supporth2, #contacth1{
+        font-size: 1.5rem;
+    }
+}
+@media screen and (min-width: 1200px){
+    .grid{
+        display: grid;
+        grid-template-columns: auto auto auto;
+    }
+}
+@media screen and (min-width: 1200px){
+    #shop{
+        display: none;
+    }
+}
+#back{
+    background: #EDE3DD;
+}
+.heightaccess{
+    min-height: 218px;
+}
+
+    /* Explore */
+
+@media screen and (min-width: 1200px){
+    .paddingex{
+        padding-left: 25%;
+    }
+}
+@media screen and (min-width: 1200px){
+    #forkids{
+        display: none;
+    }
+}
+@media screen and (min-width: 1200px){
+    .exploreflex{
+        display: inline-block;
+        
+    }
+}
+@media screen and (min-width: 1200px){
+    #forresearchers{
+        padding-left: 6%;
+    }
+}
+
+    /* Exhibition Spaces */
+
+@media screen and (min-width: 450px){
+    #exhibh2, #exhibp1, #exhibp2, #eventh2, #eventp{
+        padding: 0px;
+    }
+}
+.center{
+    text-align: -webkit-center;
+}
+
+    /* Get Involved */
+
+@media screen and (min-width: 1200px){
+    .flexsup, #supporth2, #supportp2{
+        text-align: -webkit-center;
+    }
+}
+
+    /* Contact us */
+
+@media screen and (min-width: 1200px){
+    #text, #name, #message, #submit{
         font-size: 1.5rem;
     }
 }
