@@ -147,7 +147,7 @@ p, #newsbox, #signup, .linktext, #pforside, #message{
     width: 100%;
     max-width: 400px;
     max-height: 265px;
-    
+    border-radius: 50px;
 }
 .flex{
     display: flex;
