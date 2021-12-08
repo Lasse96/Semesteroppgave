@@ -16,7 +16,7 @@ header{
 .headmenu, .headmenuright{
     display: none;
 }
-#logo{
+#logo, #logodesk{
     width: 50px;
     padding: 20px 0 0 35px;
 }
@@ -619,6 +619,11 @@ p, #newsbox, #signup, .linktext, #pforside, #message{
 
 /* Desktop */
 
+@media screen and (max-width: 1200px){
+    #logodesk{
+        display: none;
+    }
+}
 
 @media screen and (min-width: 1200px){
     
@@ -641,11 +646,12 @@ p, #newsbox, #signup, .linktext, #pforside, #message{
         
     }
     .headmenu{
-        padding-top: 100px;
+        padding-top: 60px;
     }
-    /* #logo{
-        width: 200px;
-    } */
+    #logodesk{
+        display: block;
+        padding-bottom: 13.47px;
+    }
     .headmenuright a{
         color: black;
         text-decoration: none;
