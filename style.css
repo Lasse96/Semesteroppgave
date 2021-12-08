@@ -870,11 +870,41 @@ p, #newsbox, #signup, .linktext, #pforside, #message{
         padding: 0;
     }
 }
+@media screen and (min-width: 1200px){
+    #supportbilde{
+        padding-right: 390px;
+        border-radius: 30px;
+    }
+}
+@media screen and (min-width: 1200px){
+    .supportflex{
+        display: block;
+    }
+}
 
     /* Contact us */
 
 @media screen and (min-width: 1200px){
     #text, #name, #message, #submit{
         font-size: 1.5rem;
+    }
+}
+
+    /* Calendar */
+
+@media screen and (min-width: 1200px){
+    .week li, .days li, #calsize{
+        font-size: 20px;
+    }
+}
+@media screen and (min-width: 1000px){
+    .month ul li{
+        font-size: 30px;
+    }
+}
+@media screen and (min-width: 1000px){
+    .profvisit, .night, .energeticaex{
+        height: 30px;
+        width: 30px;
     }
 }
