@@ -17,27 +17,28 @@ header{
     display: none;
 }
 #logo{
-    width: 150px;
+    width: 50px;
+    padding: 20px 0 0 35px;
 }
 nav.menyutvid{
-    display: none;
     height: 0;
+    overflow: hidden;
+    transition: height 0.5s ease-in;
 }
 #bars:checked ~ nav.menyutvid{
-    display: block;
+    height: 560px;
+    
 }
-/* #bars:checked ~ .test{
+input#bars:checked + a#logo{
     display: none;
-    border: 1px solid red;
-} */
+}
 .meny{
     display: block;
     position: relative;
-    /* top: 50px; */
-    /* right: 50px; */
-    z-index: 10000000;
+    z-index: 1;
     width: 100%;
-    height: 200px;
+    height: 120px;
+    background-color: white;
 }
 nav.menyutvid a{
     text-decoration: none;
@@ -57,13 +58,13 @@ input#bars{
 }
 nav.menyutvid ul{
     list-style-type: none;
-    background: #EDE3DD;
+    background: white;
 }
 label[for=bars]{
     font-size: 2em;
     z-index: 1;
     position: absolute;
-    top: 20px;
+    top: 50px;
     right: 30px;
 }
 
@@ -415,13 +416,6 @@ p, #newsbox, #signup, .linktext, #pforside, #message{
     
     /* Header */
 
-    #logo{
-        width: 200px;
-    }
-    label[for=bars]{
-        top: 50px;
-    }
-
     /* Forside */
 
     #bildeforside{
@@ -495,7 +489,7 @@ p, #newsbox, #signup, .linktext, #pforside, #message{
     }
     #exhibh2, #exhibp1, #exhibp2, #eventh2, #eventp{
         max-width: 693px;
-        padding: 0px;
+        padding: 0 0 20px 0;
     }
 
     /* Get Involved */
@@ -523,15 +517,8 @@ p, #newsbox, #signup, .linktext, #pforside, #message{
     
     /* Header */
 
-    label[for=bars]{
-        top: 80px;
-        font-size: 4em;
-    }
     nav.menyutvid a{
         font-size: 3.3em;
-    }
-    #logo{
-        width: 300px;
     }
 
     /* Footer */
@@ -656,9 +643,9 @@ p, #newsbox, #signup, .linktext, #pforside, #message{
     .headmenu{
         padding-top: 100px;
     }
-    #logo{
+    /* #logo{
         width: 200px;
-    }
+    } */
     .headmenuright a{
         color: black;
         text-decoration: none;
