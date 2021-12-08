@@ -13,6 +13,9 @@ header{
     flex-direction: row;
     justify-content: space-between;
 }
+.headmenu, .headmenuright{
+    display: none;
+}
 #logo{
     width: 150px;
 }
@@ -243,6 +246,9 @@ p, #newsbox, #signup, .linktext, #pforside, #message{
 #exhibp2{
     padding-top: 10px;
 }
+.center{
+    text-align: -webkit-center;
+}
 
 /* Special Events and Exhibition */
 
@@ -279,6 +285,12 @@ p, #newsbox, #signup, .linktext, #pforside, #message{
     width: 100%;
     max-width: 150px;
     padding-right: 5px;
+}
+#back{
+    background: #EDE3DD;
+}
+.heightaccess{
+    min-height: 218px;
 }
 
 /* Contact */
@@ -400,8 +412,6 @@ p, #newsbox, #signup, .linktext, #pforside, #message{
 
 /* Tablet */
 
-    
-
 @media screen and (min-width: 450px){
     
     /* Header */
@@ -478,6 +488,37 @@ p, #newsbox, #signup, .linktext, #pforside, #message{
         max-width: 300px;
     }
 
+    /* Exhibition Spaces */
+
+    #exhibbilde, #eventbilde{
+        max-width: 693px;
+        max-height: 650px;
+    }
+    #exhibh2, #exhibp1, #exhibp2, #eventh2, #eventp{
+        max-width: 693px;
+        padding: 0px;
+    }
+
+    /* Get Involved */
+
+    #supportbilde{
+        max-width: 230px;
+        padding-right: 80px
+    }
+    #supportp2, #supportp1{
+        max-width: 650px;
+    }
+
+    /* Contact us */
+
+    #name, #message{
+        max-width: 530px;
+        padding: 30px;
+        font-size: 1.5rem;
+    }
+    #text{
+        font-size: 1.8rem;
+    }
 }
 @media screen and (min-width: 1000px){
     
@@ -545,139 +586,80 @@ p, #newsbox, #signup, .linktext, #pforside, #message{
     #messagebut{
         font-size: 35px;
     }
-}
 
     /* Exhibiton Spaces */
 
-@media screen and (min-width: 450px){
-    #exhibbilde, #eventbilde{
-        max-width: 693px;
-        max-height: 650px;
-    }
-}
-@media screen and (min-width: 450px){
-    #exhibh2, #exhibp1, #exhibp2, #eventh2, #eventp{
-        max-width: 693px;
-    }
-}
-@media screen and (min-width: 1000px){
     #exhibh2, #exhibp1, #exhibp2, #eventh2, #eventp{
         max-width: 950px;
     }
-}
-@media screen and (min-width: 1000px){
     #exhibbilde, #eventbilde{
         max-width: 950px;
     }
-}
-
-    /* Get Involved */
-
-@media screen and (min-width: 450px){
-    #supportbilde{
-        max-width: 230px;
-        padding-right: 80px
-    }
-}
-@media screen and (min-width: 450px){
-    #supportp2, #supportp1{
-        max-width: 650px;
-    }
-}
 
     /* Contact us */
 
-@media screen and (min-width: 450px){
-    #name, #message{
-        max-width: 530px;
-        padding: 30px;
-        font-size: 1.5rem;
-    }
-}
-@media screen and (min-width: 1000px){
     #name, #message{
         max-width: 630px;
         font-size: 2rem;
     }
-}
-@media screen and (min-width: 450px){
-    #text{
-        font-size: 1.8rem;
-    }
-}
-@media screen and (min-width: 1000px){
     #text{
         font-size: 3rem;
     }
-}
-@media screen and (min-width: 1000px){
     #submit{
         font-size: 3rem;
     }
-}
 
     /* Calendar */
 
-@media screen and (min-width: 1000px){
     .week li, .days li, #calsize{
         font-size: 40px;
     }
-}
-@media screen and (min-width: 1000px){
     .month ul li{
         font-size: 50px;
     }
-}
-@media screen and (min-width: 1000px){
     .profvisit, .night, .energeticaex{
         height: 45px;
         width: 45px;
+    }
+    .month ul li{
+        font-size: 30px;
+    }
+    .profvisit, .night, .energeticaex{
+        height: 30px;
+        width: 30px;
     }
 }
 
 
 /* Desktop */
 
-    /* Header */
 
-.headmenu, .headmenuright{
-    display: none;
-}
 @media screen and (min-width: 1200px){
+    
+    /* Header */
+    
     .meny{
         display: none;
     }
-}
-@media screen and (min-width: 1200px){
     .headmenu, .headmenuright{
         display: block;
     }
-}
-@media screen and (min-width: 1200px){
     .headmenu a{
         color: black;
         text-decoration: none;
         font-family: 'Fira Sans', sans-serif;
         padding: 40px;
     }
-}
-@media screen and (min-width: 1200px){
     .headmenu a:hover, .headmenuright a:hover{
         color: #EDE3DD;
         
     }
-}
-@media screen and (min-width: 1200px){
     .headmenu{
         padding-top: 100px;
     }
-}
-@media screen and (min-width: 1200px){
     #logo{
         width: 200px;
     }
-}
-@media screen and (min-width: 1200px){
     .headmenuright a{
         color: black;
         text-decoration: none;
@@ -685,15 +667,126 @@ p, #newsbox, #signup, .linktext, #pforside, #message{
         padding-left: 5px;
         padding-right: 5px;
     }
-}
+
+    /* Footer */
+
+    .footerflex{
+        display: flex;
+        flex-direction: row;
+    }
+    .footerh2{
+        font-size: 2rem;
+    }
+    #footerp{
+        font-size: 1.5rem;
+    }
+
+    /* Forside */
+
+    #toptxt{
+        font-size: 2.5rem;
+    }
+    #pforside{
+        font-size: 20px;
+        max-width: 950px;
+    }
+    .gridforside{
+        display: grid;
+        grid-template-columns: auto auto auto;
+        justify-content: space-around;
+    }
+    #bildeforside{
+        max-height: 400px;
+        max-width: 400px;
+        min-width: 400px;
+        min-height: 400px;
+    }
+    .imgtxtforside{
+        display: block;
+    }
+    #topbilde, #visittopbilde{
+        max-height: 600px;
+    }
+    .cal2{
+        display: flex;
+    }
+
+    /* Visit */
+
+    #toptxt{
+        font-size: 2rem;
+    }
+    #pforside, #eventp, #exhibp1, #exhibp2, .exploresize, #visitp1, #visitp2, #psize, #supportp1, #supportp2{
+        font-size: 20px;
+    }
+    #imgtxtforside, #eventh2, #exhibh2, #exploreh2, .visithours, #visith2, #supporth2, #contacth1{
+        font-size: 1.5rem;
+    }
+    .grid{
+        display: grid;
+        grid-template-columns: auto auto auto;
+    }
+    #shop{
+        display: none;
+    }
+
+    /* Explore */
+
+    .paddingex{
+        padding-left: 25%;
+    }
+    #forkids{
+        display: none;
+    }
+    .exploreflex{
+        display: inline-block;
+        
+    }
+    #forresearchers{
+        padding-left: 6%;
+    }
+
+    /* Get involved */
+
+    .flexsup, #supporth2, #supportp2{
+        text-align: -webkit-center;
+        padding: 0;
+    }
+    #supportbilde{
+        padding-right: 390px;
+        border-radius: 30px;
+    }
+    .supportflex{
+        display: block;
+    }
+
+    /* Contact us */
+
+    #text, #name, #message, #submit{
+        font-size: 1.5rem;
+    }
+
+    /* Calendar */
+
+    .week li, .days li, #calsize{
+        font-size: 20px;
+    }
+
+    /* Header */
 @media screen and (min-width: 1630px){
     .headmenuright a {
         font-size: 1.3em;
+    }
+    .headmenu a {
+        font-size: 1.7em;
     }
 }
 @media screen and (max-width: 1630px){
     .headmenuright a {
         font-size: 1em;
+    }
+    .headmenu a {
+        font-size: 1.3em;
     }
 }
 @media screen and (max-width: 1260px){
@@ -701,40 +794,14 @@ p, #newsbox, #signup, .linktext, #pforside, #message{
         font-size: 0.75em;
     }
 }
-@media screen and (max-width: 1630px){
-    .headmenu a {
-        font-size: 1.3em;
-    }
-}
-@media screen and (min-width: 1630px){
-    .headmenu a {
-        font-size: 1.7em;
-    }
-}
 @media screen and (max-width: 1440px){
     .headmenu a {
         font-size: 1em;
     }
 }
-
+    
     /* Footer */
 
-@media screen and (min-width: 1200px){
-    .footerflex{
-        display: flex;
-        flex-direction: row;
-    }
-}
-@media screen and (min-width: 1200px){
-    .footerh2{
-        font-size: 2rem;
-    }
-}
-@media screen and (min-width: 1200px){
-    #footerp{
-        font-size: 1.5rem;
-    }
-}
 @media screen and (min-width: 1745px){
     #signup{
         font-size: 2em
@@ -748,177 +815,11 @@ p, #newsbox, #signup, .linktext, #pforside, #message{
 @media screen and (max-width: 1719px){
     #signup{
         float: left;
+        font-size: 2em;
     }
 }
 @media screen and (max-width: 1724px){
     #signup{
         font-size: 1.9em;
-    }
-}
-@media screen and (max-width: 1719px){
-    #signup{
-        font-size: 2em;
-    }
-}
-
-
-    /* Forside */
-
-@media screen and (min-width: 1200px){
-    #toptxt{
-        font-size: 2.5rem;
-    }
-}
-@media screen and (min-width: 1200px){
-    #pforside{
-        font-size: 20px;
-        max-width: 950px;
-    }
-}
-@media screen and (min-width: 1200px){
-    .gridforside{
-        display: grid;
-        grid-template-columns: auto auto auto;
-        justify-content: space-around;
-    }
-}
-@media screen and (min-width: 1200px){
-    #bildeforside{
-        max-height: 400px;
-        max-width: 400px;
-        min-width: 400px;
-        min-height: 400px;
-    }
-}
-@media screen and (min-width: 1200px){
-    .imgtxtforside{
-        display: block;
-    }
-}
-@media screen and (min-width: 1200px){
-    #topbilde, #visittopbilde{
-        max-height: 600px;
-    }
-}
-@media screen and (min-width: 1200px){
-    .cal2{
-        display: flex;
-    }
-}
-
-    /* Visit */
-
-@media screen and (min-width: 1200px){
-    #toptxt{
-        font-size: 2rem;
-    }
-}
-@media screen and (min-width: 1200px){
-    #pforside, #eventp, #exhibp1, #exhibp2, .exploresize, #visitp1, #visitp2, #psize, #supportp1, #supportp2{
-        font-size: 20px;
-    }
-}
-@media screen and (min-width: 1200px){
-    #imgtxtforside, #eventh2, #exhibh2, #exploreh2, .visithours, #visith2, #supporth2, #contacth1{
-        font-size: 1.5rem;
-    }
-}
-@media screen and (min-width: 1200px){
-    .grid{
-        display: grid;
-        grid-template-columns: auto auto auto;
-    }
-}
-@media screen and (min-width: 1200px){
-    #shop{
-        display: none;
-    }
-}
-#back{
-    background: #EDE3DD;
-}
-.heightaccess{
-    min-height: 218px;
-}
-
-    /* Explore */
-
-@media screen and (min-width: 1200px){
-    .paddingex{
-        padding-left: 25%;
-    }
-}
-@media screen and (min-width: 1200px){
-    #forkids{
-        display: none;
-    }
-}
-@media screen and (min-width: 1200px){
-    .exploreflex{
-        display: inline-block;
-        
-    }
-}
-@media screen and (min-width: 1200px){
-    #forresearchers{
-        padding-left: 6%;
-    }
-}
-
-    /* Exhibition Spaces */
-
-@media screen and (min-width: 450px){
-    #exhibh2, #exhibp1, #exhibp2, #eventh2, #eventp{
-        padding: 0px;
-    }
-}
-.center{
-    text-align: -webkit-center;
-}
-
-    /* Get Involved */
-
-@media screen and (min-width: 1200px){
-    .flexsup, #supporth2, #supportp2{
-        text-align: -webkit-center;
-        padding: 0;
-    }
-}
-@media screen and (min-width: 1200px){
-    #supportbilde{
-        padding-right: 390px;
-        border-radius: 30px;
-    }
-}
-@media screen and (min-width: 1200px){
-    .supportflex{
-        display: block;
-    }
-}
-
-    /* Contact us */
-
-@media screen and (min-width: 1200px){
-    #text, #name, #message, #submit{
-        font-size: 1.5rem;
-    }
-}
-
-    /* Calendar */
-
-@media screen and (min-width: 1200px){
-    .week li, .days li, #calsize{
-        font-size: 20px;
-    }
-}
-@media screen and (min-width: 1000px){
-    .month ul li{
-        font-size: 30px;
-    }
-}
-@media screen and (min-width: 1000px){
-    .profvisit, .night, .energeticaex{
-        height: 30px;
-        width: 30px;
     }
 }
