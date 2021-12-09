@@ -558,9 +558,9 @@ p, #newsbox, #signup, .linktext, #pforside, #message{
     /* Explore */
 
     #forkids{
-        padding: 0 40px 0 5px;
+        padding: 0;
     }
-    #forkidstxt, #forkidstxt2, #teacherstxt2, #teacherstxt3, #reasearcherstxt2{
+    #forkidstxt2, #teacherstxt2, #teacherstxt3, #reasearcherstxt2{
         max-width: 900px;
     }
     #txtteachers, #txtreasearchers{
@@ -571,6 +571,9 @@ p, #newsbox, #signup, .linktext, #pforside, #message{
     }
     #messagebut{
         font-size: 35px;
+    }
+    #forkidstxt{
+        max-width: 549px;
     }
 
     /* Exhibiton Spaces */
@@ -724,19 +727,36 @@ p, #newsbox, #signup, .linktext, #pforside, #message{
 
     /* Explore */
 
-    .paddingex{
-        padding-left: 25%;
+    .centerex{
+        text-align: -webkit-center;
     }
-    #forkids{
-        display: none;
+    #explorep, #forkidstxt2, #mammoth, #forkidstxt, #txtteachers, #teacherstxt2, #teacherstxt3, #txtreasearchers, #reasearcherstxt2, #forresearchers{
+        padding: 0;
+        max-width: 900px;
     }
     .exploreflex{
         display: inline-block;
-        
     }
-    #forresearchers{
-        padding-left: 6%;
+    #forresearchers, #forteachers, #forkids{
+        display: none;
     }
+    #exploreh2{
+        padding: 20px 0;
+        max-width: 900px;
+    }
+    .messagearea, .padbut{
+        text-align: -webkit-left;
+        max-width: 900px;
+        padding: 0;
+    }
+    #messagebut{
+        margin: 0;
+    }
+    #txtreasearchers{
+        min-width: 900px;
+    }
+    
+
 
     /* Get involved */
 
