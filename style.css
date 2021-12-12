@@ -71,7 +71,7 @@ label[for=bars]{
 /* Footer */
 
 footer{
-    background-color: #959A9C;
+    background-color: #b2b4b6;
 }
 h2{
     font-family: 'Fira Sans', sans-serif;
@@ -104,6 +104,9 @@ p, #newsbox, #signup, .linktext, #pforside, #message{
     font-weight: bold;
     color: black;
     margin-left: 20px;
+}
+#calbut{
+    padding-right: 57px;
 }
 #signup:hover, #messagebut:hover, #calbut:hover, #submit:hover{
     color: #d7c49e;
@@ -188,7 +191,7 @@ p, #newsbox, #signup, .linktext, #pforside, #message{
     padding-left: 5px;
 }
 #forkidstxt2, #teacherstxt3, #reasearcherstxt2{
-    padding: 10px 0 0 5px;
+    padding: 20px 0 0 5px;
     max-width: 400px;
 }
 #mammoth{
@@ -240,11 +243,7 @@ p, #newsbox, #signup, .linktext, #pforside, #message{
     text-align: center;
 }
 #exhibh2, #exhibp1, #exhibp2, #eventh2, #eventp{
-    padding-left: 13px;
-    padding-bottom: 10px;
-}
-#exhibp2{
-    padding-top: 10px;
+    padding: 10px 5px 10px 35px;
 }
 .center{
     text-align: -webkit-center;
@@ -267,12 +266,6 @@ p, #newsbox, #signup, .linktext, #pforside, #message{
 .cal{
     text-align: center;
     padding-right: 5px;
-}
-.calbutwidth{
-    width: 140px;
-    border: 4px solid #d7c49e;
-    background: #d7c49e;
-    border-radius: 6px;
 }
 #laguneveien{
     width: 100%;
@@ -320,10 +313,6 @@ p, #newsbox, #signup, .linktext, #pforside, #message{
 }
 .submitpad{
     padding-bottom: 20px;
-}
-.contact{
-    text-align: center;
-    text-align: -webkit-center;
 }
 #shop{
     display: none;
@@ -454,7 +443,7 @@ p, #newsbox, #signup, .linktext, #pforside, #message{
         padding: 0 5px 0 5px;
     }
     .visitflex, #visith2, #visitp1, #laguneveien, #shop, #visitp2, #mammoth, #forkidstxt2, #teacherstxt2, #teacherstxt3, #reasearcherstxt2, #txtteachers, #txtreasearchers, #forkidstxt, #exploreh2, .messagearea, #supporth2, #supportp1, #supportp2, #contacth1{
-        padding-left: 35px;
+        padding: 0 5px 0 35px;
     }
 
     /* Explore */
@@ -466,6 +455,9 @@ p, #newsbox, #signup, .linktext, #pforside, #message{
     }
     #forkidstxt2, #teacherstxt2, #teacherstxt3, #reasearcherstxt2{
         max-width: 700px;
+    }
+    #exploreh2, #forkidstxt2, #reasearcherstxt2{
+        padding-bottom: 20px;
     }
     #txtteachers, #txtreasearchers{
         max-width: 290px;
@@ -489,7 +481,7 @@ p, #newsbox, #signup, .linktext, #pforside, #message{
     }
     #exhibh2, #exhibp1, #exhibp2, #eventh2, #eventp{
         max-width: 693px;
-        padding: 0 0 20px 0;
+        padding: 10px 5px 20px 35px;
     }
 
     /* Get Involved */
@@ -513,6 +505,18 @@ p, #newsbox, #signup, .linktext, #pforside, #message{
         font-size: 1.8rem;
     }
 }
+
+@media screen and (min-width: 450px){
+    #forkids{
+        padding-left: 0px;
+    }
+}
+@media screen and (min-width: 675px){
+    #forkids{
+        padding-left: 100px;
+    }
+}
+
 @media screen and (min-width: 1000px){
     
     /* Header */
@@ -552,7 +556,7 @@ p, #newsbox, #signup, .linktext, #pforside, #message{
     /* Visit */
 
     #laguneveien, #shop{
-        max-width: 420px;
+        max-width: 400px;
     }
 
     /* Explore */
@@ -579,6 +583,7 @@ p, #newsbox, #signup, .linktext, #pforside, #message{
     /* Exhibiton Spaces */
 
     #exhibh2, #exhibp1, #exhibp2, #eventh2, #eventp{
+        padding-left: 0;
         max-width: 950px;
     }
     #exhibbilde, #eventbilde{
@@ -602,13 +607,6 @@ p, #newsbox, #signup, .linktext, #pforside, #message{
 
     .week li, .days li, #calsize{
         font-size: 40px;
-    }
-    .month ul li{
-        font-size: 50px;
-    }
-    .profvisit, .night, .energeticaex{
-        height: 45px;
-        width: 45px;
     }
     .month ul li{
         font-size: 30px;
@@ -730,7 +728,7 @@ p, #newsbox, #signup, .linktext, #pforside, #message{
     .centerex{
         text-align: -webkit-center;
     }
-    #explorep, #forkidstxt2, #mammoth, #forkidstxt, #txtteachers, #teacherstxt2, #teacherstxt3, #txtreasearchers, #reasearcherstxt2, #forresearchers{
+    #explorep, #mammoth, #forkidstxt, #txtteachers, #teacherstxt2, #teacherstxt3, #txtreasearchers, #forresearchers{
         padding: 0;
         max-width: 900px;
     }
@@ -740,8 +738,8 @@ p, #newsbox, #signup, .linktext, #pforside, #message{
     #forresearchers, #forteachers, #forkids{
         display: none;
     }
-    #exploreh2{
-        padding: 20px 0;
+    #exploreh2, #forkidstxt2, #reasearcherstxt2{
+        padding: 20px 0 20px 0;
         max-width: 900px;
     }
     .messagearea, .padbut{
