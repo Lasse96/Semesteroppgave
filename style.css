@@ -297,7 +297,7 @@ p, #newsbox, #signup, .linktext, #pforside, #message{
     resize: vertical;
     margin: 5px 0 20px 0;
     font-family: 'PT Serif', serif;
-    font-size: 1.em;
+    font-size: 1em;
     font-weight: bold;
     max-width: 375px;
     display: block;
