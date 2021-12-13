@@ -81,7 +81,7 @@ h2{
     font-size: 2rem;
     text-align: left;
 }
-p, #newsbox, #signup, .linktext, #pforside, #message{
+p, #newsbox, #signup, .linktext, .pforside, #message{
     font-family: 'PT Serif', serif;
     font-size: 20px;
     text-align: left;
@@ -144,12 +144,12 @@ p, #newsbox, #signup, .linktext, #pforside, #message{
     text-align: center;
     padding: 10px 0 10px 0;
 }
-#pforside{
+.pforside{
     padding: 0 0 30px 5px;
     line-height: 1.5;
     word-spacing: normal;
 }
-#bildeforside{
+.bildeforside{
     width: 100%;
     max-width: 400px;
     max-height: 265px;
@@ -160,7 +160,7 @@ p, #newsbox, #signup, .linktext, #pforside, #message{
     flex-direction: column;
     text-align: center;
 }
-#imgtxtforside{
+.imgtxtforside{
     font-family: 'Fira Sans', sans-serif;
     font-weight: bold;
     text-decoration: none;
@@ -182,18 +182,18 @@ p, #newsbox, #signup, .linktext, #pforside, #message{
     max-height: 200px;
     padding-right: 5px;
 }
-#exploreh2{
+.exploreh2{
     padding: 20px 0 0 5px;
 }
 .exploreflex, .visitflex, .supportflex, .flexcal{
     display: flex;
     flex-direction: row;
 }
-#forkidstxt{
+.forkidstxt{
     max-width: 200px;
     padding-left: 5px;
 }
-#forkidstxt2, #teacherstxt3, #reasearcherstxt2{
+.forkidstxt2, #teacherstxt3, #reasearcherstxt2{
     padding: 20px 0 0 5px;
     max-width: 400px;
 }
@@ -202,7 +202,7 @@ p, #newsbox, #signup, .linktext, #pforside, #message{
     max-width: 300px;
     padding-left: 5px;
 }
-.messagearea, .visitflex, #visith2, #supportp2, #supporth2{
+.messagearea, .visitflex, .visith2, .supportp2, .supporth2{
     padding-left: 35px;
 }
 #message{
@@ -237,7 +237,7 @@ p, #newsbox, #signup, .linktext, #pforside, #message{
     width: 100%;
     max-height: 250px;
 }
-#exhibbilde, #eventbilde{
+.exhibbilde, .eventbilde{
     width: 100%;
     max-width: 350px;
     padding-top: 20px;
@@ -245,7 +245,7 @@ p, #newsbox, #signup, .linktext, #pforside, #message{
 .centerexhib, .centerevent{
     text-align: center;
 }
-#exhibh2, #exhibp1, #exhibp2, #eventh2, #eventp{
+.exhibh2, .exhibp1, .exhibp2, .eventh2, .eventp{
     padding: 10px 5px 10px 35px;
 }
 .center{
@@ -274,7 +274,7 @@ p, #newsbox, #signup, .linktext, #pforside, #message{
     width: 100%;
     max-width: 350px;
 }
-#visitp2, #visitp1, #supportp1{
+.visitp2, .visitp1, .supportp1{
     padding: 0 0 25px 35px;
 }
 #supportbilde{
@@ -288,7 +288,7 @@ p, #newsbox, #signup, .linktext, #pforside, #message{
 
 /* Contact */
 
-#name, input[type=password], input[type=email], input[type=tel], #message{
+.text, input[type=password], input[type=email], input[type=tel], #message{
     width: 100%;
     border: 2px solid #d7c49e;
     border-radius: 2px;
@@ -302,7 +302,7 @@ p, #newsbox, #signup, .linktext, #pforside, #message{
     max-width: 375px;
     display: block;
 }
-#text{
+#name1, #lastname1, #e-mail1, #mesg{
     font-family: 'PT Serif', serif;
     font-weight: bold;
     font-size: 1.3em;
@@ -320,7 +320,7 @@ p, #newsbox, #signup, .linktext, #pforside, #message{
 
 /* Calendar */
 
-#calul{
+.calul{
     list-style-type: none;
 }
 .month{
@@ -407,14 +407,14 @@ p, #newsbox, #signup, .linktext, #pforside, #message{
 
     /* Forside */
 
-    #bildeforside{
+    .bildeforside{
         max-width: 600px;
         max-height: 400px;
     }
-    #imgtxtforside, #eventh2, #exhibh2, #exploreh2, .visithours, #visith2, #supporth2, #contacth1{
+    .imgtxtforside, .eventh2, .exhibh2, .exploreh2, .visithours, .visith2, .supporth2, #contacth1{
         font-size: 2.5rem;
     }
-    #pforside, #eventp, #exhibp1, #exhibp2, .exploresize, #visitp1, #visitp2, #psize, #supportp1, #supportp2{
+    .pforside, .eventp, .exhibp1, .exhibp2, .exploresize, .visitp1, .visitp2, .psize, .supportp1, .supportp2{
         font-size: 25px;
     }
     #toptxt{
@@ -426,7 +426,7 @@ p, #newsbox, #signup, .linktext, #pforside, #message{
     .cal{
         text-align: left;
     }
-    #visith2{
+    .visith2{
         padding-top: 30px;
     }
     #shop{
@@ -435,7 +435,7 @@ p, #newsbox, #signup, .linktext, #pforside, #message{
         max-width: 350px;
         padding: 0 5px 0 5px;
     }
-    .visitflex, #visith2, #visitp1, #laguneveien, #shop, #visitp2, #mammoth, #forkidstxt2, #teacherstxt2, #teacherstxt3, #reasearcherstxt2, #txtteachers, #txtreasearchers, #forkidstxt, #exploreh2, .messagearea, #supporth2, #supportp1, #supportp2, #contacth1{
+    .visitflex, .visith2, .visitp1, #laguneveien, #shop, .visitp2, #mammoth, .forkidstxt2, #teacherstxt2, #teacherstxt3, #reasearcherstxt2, #txtteachers, #txtreasearchers, .forkidstxt, .exploreh2, .messagearea, .supporth2, .supportp1, .supportp2, #contacth1{
         padding: 0 5px 0 35px;
     }
 
@@ -446,10 +446,10 @@ p, #newsbox, #signup, .linktext, #pforside, #message{
         max-height: 250px;
         padding-left: 100px;
     }
-    #forkidstxt2, #teacherstxt2, #teacherstxt3, #reasearcherstxt2{
+    .forkidstxt2, #teacherstxt2, #teacherstxt3, #reasearcherstxt2{
         max-width: 700px;
     }
-    #exploreh2, #forkidstxt2, #reasearcherstxt2{
+    .exploreh2, .forkidstxt2, #reasearcherstxt2{
         padding-bottom: 20px;
     }
     #txtteachers, #txtreasearchers{
@@ -468,11 +468,11 @@ p, #newsbox, #signup, .linktext, #pforside, #message{
 
     /* Exhibition Spaces */
 
-    #exhibbilde, #eventbilde{
+    .exhibbilde, .eventbilde{
         max-width: 693px;
         max-height: 650px;
     }
-    #exhibh2, #exhibp1, #exhibp2, #eventh2, #eventp{
+    .exhibh2, .exhibp1, .exhibp2, .eventh2, .eventp{
         max-width: 693px;
         padding: 10px 5px 20px 35px;
     }
@@ -483,19 +483,16 @@ p, #newsbox, #signup, .linktext, #pforside, #message{
         max-width: 230px;
         padding-right: 80px
     }
-    #supportp2, #supportp1{
+    .supportp2, .supportp1{
         max-width: 650px;
     }
 
     /* Contact us */
 
-    #name, #message{
+    .text, #message{
         max-width: 530px;
         padding: 30px;
         font-size: 1.5rem;
-    }
-    #text{
-        font-size: 1.8rem;
     }
     #forkids{
         padding-left: 0px;
@@ -516,7 +513,7 @@ p, #newsbox, #signup, .linktext, #pforside, #message{
         padding-left: 35px;
     }   
 }
-#visith2, .visitflex, #exploreh2, #supporth2{
+.visith2, .visitflex, .exploreh2, .supporth2{
     padding-top: 20px;
 }
 @media screen and (min-width: 1000px){
@@ -532,23 +529,23 @@ p, #newsbox, #signup, .linktext, #pforside, #message{
     .footerh2{
         font-size: 3.3em;
     }
-    #footerp, #signup, #newsbox, .footicon{
+    .footerp, #signup, #newsbox, .footicon{
         font-size: 2em;
     }
 
     /* Forside */
 
-    #bildeforside{
+    .bildeforside{
         max-width: 760px;
         max-height: 540px;
     }
     #toptxt{
         font-size: 4rem;
     }
-    #pforside, #eventp, #exhibp1, #exhibp2, .exploresize, #visitp1, #visitp2, #psize, #supportp1, #supportp2{
+    .pforside, .eventp, .exhibp1, .exhibp2, .exploresize, .visitp1, .visitp2, .psize, .supportp1, .supportp2{
         font-size: 35px;
     }
-    #imgtxtforside, #eventh2, #exhibh2, #exploreh2, .visithours, #visith2, #supporth2, #contacth1{
+    .imgtxtforside, .eventh2, .exhibh2, .exploreh2, .visithours, .visith2, .supporth2, #contacth1{
         font-size: 3.5rem;
     }
     #topbilde, #exhibtopbilde, #visittopbilde{
@@ -566,7 +563,7 @@ p, #newsbox, #signup, .linktext, #pforside, #message{
     #forkids{
         padding: 0;
     }
-    #forkidstxt2, #teacherstxt2, #teacherstxt3, #reasearcherstxt2{
+    .forkidstxt2, #teacherstxt2, #teacherstxt3, #reasearcherstxt2{
         max-width: 900px;
     }
     #txtteachers, #txtreasearchers{
@@ -578,28 +575,25 @@ p, #newsbox, #signup, .linktext, #pforside, #message{
     #messagebut{
         font-size: 35px;
     }
-    #forkidstxt{
+    .forkidstxt{
         max-width: 549px;
     }
 
     /* Exhibiton Spaces */
 
-    #exhibh2, #exhibp1, #exhibp2, #eventh2, #eventp{
+    .exhibh2, .exhibp1, .exhibp2, .eventh2, .eventp{
         padding-left: 0;
         max-width: 950px;
     }
-    #exhibbilde, #eventbilde{
+    .exhibbilde, .eventbilde{
         max-width: 950px;
     }
 
     /* Contact us */
 
-    #name, #message{
+    .text, #message{
         max-width: 630px;
         font-size: 2rem;
-    }
-    #text{
-        font-size: 3rem;
     }
     #submit{
         font-size: 3rem;
@@ -607,7 +601,7 @@ p, #newsbox, #signup, .linktext, #pforside, #message{
 
     /* Calendar */
 
-    .week li, .days li, #calsize{
+    .week li, .days li, .calsize{
         font-size: 40px;
     }
     .month ul li{
@@ -672,7 +666,7 @@ p, #newsbox, #signup, .linktext, #pforside, #message{
     .footerh2{
         font-size: 2rem;
     }
-    #footerp{
+    .footerp{
         font-size: 1.5rem;
     }
 
@@ -681,7 +675,7 @@ p, #newsbox, #signup, .linktext, #pforside, #message{
     #toptxt{
         font-size: 2.5rem;
     }
-    #pforside{
+    .pforside{
         font-size: 20px;
         max-width: 950px;
     }
@@ -690,7 +684,7 @@ p, #newsbox, #signup, .linktext, #pforside, #message{
         grid-template-columns: auto auto auto;
         justify-content: space-around;
     }
-    #bildeforside{
+    .bildeforside{
         max-height: 400px;
         max-width: 400px;
         min-width: 400px;
@@ -711,10 +705,10 @@ p, #newsbox, #signup, .linktext, #pforside, #message{
     #toptxt{
         font-size: 2rem;
     }
-    #pforside, #eventp, #exhibp1, #exhibp2, .exploresize, #visitp1, #visitp2, #psize, #supportp1, #supportp2{
+    .pforside, .eventp, .exhibp1, .exhibp2, .exploresize, .visitp1, .visitp2, .psize, .supportp1, .supportp2{
         font-size: 20px;
     }
-    #imgtxtforside, #eventh2, #exhibh2, #exploreh2, .visithours, #visith2, #supporth2, #contacth1{
+    .imgtxtforside, .eventh2, .exhibh2, .exploreh2, .visithours, .visith2, .supporth2, #contacth1{
         font-size: 1.5rem;
     }
     .grid{
@@ -730,7 +724,7 @@ p, #newsbox, #signup, .linktext, #pforside, #message{
     .centerex{
         text-align: -webkit-center;
     }
-    #explorep, #mammoth, #forkidstxt, #txtteachers, #teacherstxt2, #teacherstxt3, #txtreasearchers, #forresearchers{
+    #explorep, #mammoth, .forkidstxt, #txtteachers, #teacherstxt2, #teacherstxt3, #txtreasearchers, #forresearchers{
         padding: 0;
         max-width: 900px;
     }
@@ -740,7 +734,7 @@ p, #newsbox, #signup, .linktext, #pforside, #message{
     #forresearchers, #forteachers, #forkids{
         display: none;
     }
-    #exploreh2, #forkidstxt2, #reasearcherstxt2{
+    .exploreh2, .forkidstxt2, #reasearcherstxt2{
         padding: 20px 0 20px 0;
         max-width: 900px;
     }
@@ -765,7 +759,7 @@ p, #newsbox, #signup, .linktext, #pforside, #message{
 
     /* Get involved */
 
-    .flexsup, #supporth2, #supportp2{
+    .flexsup, .supporth2, .supportp2{
         text-align: -webkit-center;
         padding: 0;
     }
@@ -779,13 +773,13 @@ p, #newsbox, #signup, .linktext, #pforside, #message{
 
     /* Contact us */
 
-    #text, #name, #message, #submit{
+    .text, #name1, #lastname1, #e-mail1, #message, #submit{
         font-size: 1.5rem;
     }
 
     /* Calendar */
 
-    .week li, .days li, #calsize{
+    .week li, .days li, .calsize{
         font-size: 20px;
     }
 }
