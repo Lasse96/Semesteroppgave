@@ -5,6 +5,9 @@
 h1{
     font-family: 'Fira Sans', sans-serif;
 }
+.color, #back{
+    background-color: #D6CDC1;
+}
 
 /* Header */
 
@@ -200,7 +203,7 @@ p, #newsbox, #signup, .linktext, #pforside, #message{
     padding-left: 5px;
 }
 .messagearea, .visitflex, #visith2, #supportp2, #supporth2{
-    padding-left: 5px;
+    padding-left: 35px;
 }
 #message{
     outline: none;
@@ -208,7 +211,7 @@ p, #newsbox, #signup, .linktext, #pforside, #message{
     max-width: 300px;
 }
 .padbut{
-    padding: 10px 0 0 30px;
+    padding: 10px 0 10px 30px;
 }
 #forteachers{
     width: 100%;
@@ -272,15 +275,12 @@ p, #newsbox, #signup, .linktext, #pforside, #message{
     max-width: 350px;
 }
 #visitp2, #visitp1, #supportp1{
-    padding: 0 0 25px 5px;
+    padding: 0 0 25px 35px;
 }
 #supportbilde{
     width: 100%;
     max-width: 150px;
     padding-right: 5px;
-}
-#back{
-    background: #EDE3DD;
 }
 .heightaccess{
     min-height: 218px;
@@ -423,17 +423,10 @@ p, #newsbox, #signup, .linktext, #pforside, #message{
 
     /* Visit */
 
-    .grid{
-        display: grid;
-        grid-template-columns: auto auto;
-    }
-    .visitflex{
-        flex-direction: column;
-    }
     .cal{
         text-align: left;
     }
-    #visith2, .visithours{
+    #visith2{
         padding-top: 30px;
     }
     #shop{
@@ -504,9 +497,6 @@ p, #newsbox, #signup, .linktext, #pforside, #message{
     #text{
         font-size: 1.8rem;
     }
-}
-
-@media screen and (min-width: 450px){
     #forkids{
         padding-left: 0px;
     }
@@ -516,7 +506,19 @@ p, #newsbox, #signup, .linktext, #pforside, #message{
         padding-left: 100px;
     }
 }
-
+@media screen and (min-width: 750px){
+    .grid{
+        grid-template-columns: auto auto auto;
+    }
+}
+@media screen and (max-width: 750px){
+    #laguneveien{
+        padding-left: 35px;
+    }   
+}
+#visith2, .visitflex, #exploreh2, #supporth2{
+    padding-top: 20px;
+}
 @media screen and (min-width: 1000px){
     
     /* Header */
@@ -555,7 +557,7 @@ p, #newsbox, #signup, .linktext, #pforside, #message{
 
     /* Visit */
 
-    #laguneveien, #shop{
+    #shop{
         max-width: 400px;
     }
 
@@ -745,7 +747,12 @@ p, #newsbox, #signup, .linktext, #pforside, #message{
     .messagearea, .padbut{
         text-align: -webkit-left;
         max-width: 900px;
+    }
+    .messagearea{
         padding: 0;
+    }
+    .padbut{
+        padding: 0 0 10px 0;
     }
     #messagebut{
         margin: 0;
