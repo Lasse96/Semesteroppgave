@@ -761,7 +761,7 @@ p, #newsbox, #signup, .linktext, .pforside, #message{
 
     .flexsup, .supporth2, .supportp2{
         text-align: -webkit-center;
-        padding: 0;
+        padding: 10px 0;
     }
     #supportbilde{
         padding-right: 390px;
