@@ -788,6 +788,7 @@ p, #newsbox, #signup, .linktext, #pforside, #message{
     .week li, .days li, #calsize{
         font-size: 20px;
     }
+}
 
     /* Header */
 @media screen and (min-width: 1630px){
