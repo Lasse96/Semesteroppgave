@@ -838,5 +838,5 @@ p, #newsbox, #signup, .linktext, #pforside, #message{
 @media screen and (max-width: 1724px){
     #signup{
         font-size: 1.9em;
-    }
+    } 
 }
