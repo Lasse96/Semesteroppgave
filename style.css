@@ -819,9 +819,9 @@ p, #newsbox, #signup, .linktext, .pforside, #message{
         font-size: 2em
     }
 }
-@media screen and (max-width: 1400px){
+@media screen and (min-width: 1440px){
     #signup{
-        float: none;
+        float: left;
     }
 }
 @media screen and (max-width: 1745px){
@@ -831,7 +831,7 @@ p, #newsbox, #signup, .linktext, .pforside, #message{
 }
 @media screen and (max-width: 1719px){
     #signup{
-        float: left;
+        
         font-size: 2em;
     }
 }
