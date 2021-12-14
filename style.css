@@ -819,7 +819,7 @@ p, #newsbox, #signup, .linktext, .pforside, #message{
         font-size: 2em
     }
 }
-@media screen and (min-width: 1200px){
+@media screen and (min-width: 1440px){
     #signup{
         float: left;
     }
