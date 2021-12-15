@@ -71,7 +71,7 @@ label[for=bars]{
     right: 30px;
 }
 a.active{
-    color: #d7c49e;
+    color: #d7c49e !important;
 }
 
 /* Footer */
