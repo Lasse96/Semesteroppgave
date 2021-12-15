@@ -70,7 +70,7 @@ label[for=bars]{
     top: 50px;
     right: 30px;
 }
-.active{
+a.active{
     color: #d7c49e;
 }
 
