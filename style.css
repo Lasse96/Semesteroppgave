@@ -170,7 +170,7 @@ p, #newsbox, #signup, .linktext, .pforside, #message{
     color: black;
     font-size: 1.5rem;
 }
-.padexp, .padexhi, .padevent, .padvisit, .padinvolved{
+.padexp, .padexhi, .padevent, .padvisit, .padinvolved, .padbot{
     padding-bottom: 80px;
 }
 .cal2{
